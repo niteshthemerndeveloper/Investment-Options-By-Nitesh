@@ -1,0 +1,224 @@
+body {
+  /* background-color: #91c0e4; */
+  background-color: #e4fcf9;
+  margin: 0px;
+}
+header {
+  margin: 10px auto 10px auto;
+  padding: 4px 4px 20px 4px;
+}
+.expandingCardsHeader-a {
+  color: #023463;
+}
+.expandingCardsHeader img {
+  display: inline-block;
+  width: 65px;
+  height: 50px;
+  margin: 24px 0px auto 200px;
+  position: relative;
+}
+.expandingCardsHeader h1 {
+  display: inline-block;
+  font-size: 3rem;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 14px 2px 10px 0px;
+  position: absolute;
+  padding: 8px 0px 2px 4px;
+}
+article {
+  align-items: center;
+  font-family: Helvetica, Arial, sans-serif;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+}
+article .body-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 90vw;
+}
+.panel {
+  align-items: center;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 45px;
+  color: #fff;
+  cursor: pointer;
+  filter: brightness(-200);
+  flex: 0.7;
+  height: 80vh;
+  justify-content: center;
+  margin: 10px;
+  opacity: 1.8;
+  position: relative;
+  text-align: center;
+  transition: flex 0.75s ease-in;
+}
+.panel h3 {
+  top: 20px;
+  font-size: 24px;
+  left: 20px;
+  margin: 0px;
+  opacity: 0;
+  position: absolute;
+}
+.panel.active {
+  flex: 5;
+}
+.panel.active h3 {
+  background-color: #023463;
+  margin: 20px;
+  opacity: 1;
+  padding: 4px 8px 4px 8px;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+/* Hover CSS Style */
+.panel.active h3:hover {
+  background-color: #fff;
+  color: #023463;
+  font-size: 1.6rem;
+  transform: font-size 0.8s ease-out 0.2s;
+  transition: color 0.2s ease-in-out;
+}
+h3:hover {
+  background-color: #fff;
+  color: #023463;
+}
+.button button:hover {
+  background-color: #fff;
+  color: #023463;
+  border-radius: 20px;
+  border: 2px solid #023463;
+}
+.footer p:hover {
+  color: #023463;
+  font-weight: bold;
+}
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
+}
+.button {
+  align-items: center;
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  justify-content: center;
+  margin: 18px 650px;
+  padding: 10px 10px 10px 10px;
+  position: absolute;
+  text-align: center;
+}
+.button button {
+  background-color: #023463;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  padding: 5px 10px;
+}
+footer p {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0px;
+}
+hr {
+  border: 2px dotted #023463;
+  border-top: none;
+  border-width: 4px;
+  height: 0;
+  margin-bottom: 10px;
+  margin-left:550px;
+  margin-top: 0;
+  position: relative;
+  padding-left: 40px;
+  text-align: center;
+  width: 18%;
+}
+.footer p {
+  color: #023463;
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.1rem;
+  justify-content: center;
+  margin: 2px 490px;
+  position: absolute;
+  padding: 5px 10px;
+  text-align: center;
+  width: 400px;
+}
+.social-icons{
+  
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  margin-left: 52px;
+  margin-top: 38px;
+  text-align: center;
+}
+.social-icons a{
+  color:#023463;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.social-icons a:hover{
+  background-color: #fff;
+  border: 4px solid black;
+  color:black;
+  font-weight: lighter;
+  padding:8px 8px;
+  transition: color 0.3s ease-in;
+  transition: border 0.1s ease-in;
+}
+a.fa-google{
+  background: #023463;
+  border-radius: 50%;
+  color: white;
+  padding:8px 8px;
+}
+a.fa-stack-overflow{
+  background: #023463;
+  border-radius: 50%;
+  color: white;
+  padding:8px 8px;
+}
+a.fa-github{
+  background: #023463;
+  border-radius: 50%;
+  color: white;
+  padding:8px 8px;
+}
+a.fa-slack{
+  background: #023463;
+  border-radius: 50%;
+  color: white;
+  padding:8px 8px;
+}
+a.fa-reddit{
+  background: #023463;
+  border-radius: 50%;
+  color: white;
+  padding:8px 8px;
+}
+a.fa-youtube{
+  background: #023463;
+  border-radius: 50%;
+  color: white;
+  padding:8px 8px;
+}
+a.fa-quora{
+  background: #023463;
+  border-radius: 50%;
+  color: white;
+  padding:8px 8px;
+}
